@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "143569ff-0f64-4b47-870f-51e9ba684ee8",
+		"name": "challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27215435"
+	},
+	"item": [
+		{
+			"name": "Fetch Paginated Results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Paginated Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2466"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9a2-NIwgs3xu1qCZAv/JcpGGr8LEIoU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Feb 2024 08:26:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"TransactionId\": 0,\n        \"UserId\": \"9b397410-7e50-42a9-b215-f31d96373e09\",\n        \"Amount\": 337.89,\n        \"Timestamp\": \"2023-10-03T15:07:42.515Z\"\n    },\n    {\n        \"TransactionId\": 1,\n        \"UserId\": \"4f456df1-6d33-4835-b0ca-291d127c0cb6\",\n        \"Amount\": 639.5,\n        \"Timestamp\": \"2023-07-03T15:02:53.893Z\"\n    },\n    {\n        \"TransactionId\": 2,\n        \"UserId\": \"42b37fae-f6bf-447f-8104-a0f6fe6775a4\",\n        \"Amount\": 547.65,\n        \"Timestamp\": \"2023-10-19T01:16:29.552Z\"\n    },\n    {\n        \"TransactionId\": 3,\n        \"UserId\": \"79fe0ea3-75f4-46f9-a6b0-d620b035458b\",\n        \"Amount\": 322.35,\n        \"Timestamp\": \"2023-05-12T09:13:45.424Z\"\n    },\n    {\n        \"TransactionId\": 4,\n        \"UserId\": \"fc37a23d-d6c6-4c65-8be9-a159a1bd601a\",\n        \"Amount\": 805.99,\n        \"Timestamp\": \"2023-10-01T04:15:56.451Z\"\n    },\n    {\n        \"TransactionId\": 5,\n        \"UserId\": \"71675555-aef1-4450-a1d8-68091674437e\",\n        \"Amount\": 269.98,\n        \"Timestamp\": \"2023-03-27T09:15:08.254Z\"\n    },\n    {\n        \"TransactionId\": 6,\n        \"UserId\": \"52cfaa63-ed26-4d0a-a888-71c8b5c93b10\",\n        \"Amount\": 480.62,\n        \"Timestamp\": \"2024-02-03T13:01:37.165Z\"\n    },\n    {\n        \"TransactionId\": 7,\n        \"UserId\": \"b456c139-47bd-4254-9af0-ed286e722c3f\",\n        \"Amount\": 438.19,\n        \"Timestamp\": \"2023-10-31T15:50:20.942Z\"\n    },\n    {\n        \"TransactionId\": 8,\n        \"UserId\": \"aaa0bee3-e43c-421f-906c-686bdcde60e9\",\n        \"Amount\": 114.26,\n        \"Timestamp\": \"2023-09-14T06:35:50.495Z\"\n    },\n    {\n        \"TransactionId\": 9,\n        \"UserId\": \"8f66005c-8cbe-4348-967b-9bae6e24d5fe\",\n        \"Amount\": 163.26,\n        \"Timestamp\": \"2023-07-07T15:25:24.589Z\"\n    },\n    {\n        \"TransactionId\": 10,\n        \"UserId\": \"ebde838f-6679-4c02-ad60-0e94c3cd9034\",\n        \"Amount\": 514.75,\n        \"Timestamp\": \"2023-10-01T01:58:52.798Z\"\n    },\n    {\n        \"TransactionId\": 11,\n        \"UserId\": \"d070bb29-4381-4ff3-ae61-a70b9f745d5b\",\n        \"Amount\": 73.62,\n        \"Timestamp\": \"2023-07-26T04:24:24.239Z\"\n    },\n    {\n        \"TransactionId\": 12,\n        \"UserId\": \"1e437468-bbd7-4616-9673-fd9aed5c249e\",\n        \"Amount\": 371.83,\n        \"Timestamp\": \"2023-10-09T03:03:34.006Z\"\n    },\n    {\n        \"TransactionId\": 13,\n        \"UserId\": \"c94960ef-7dc7-4325-9e39-c0b86c32827f\",\n        \"Amount\": 645.3,\n        \"Timestamp\": \"2023-08-22T04:16:48.689Z\"\n    },\n    {\n        \"TransactionId\": 14,\n        \"UserId\": \"faf34c79-97cc-48c0-943a-56171d6bf529\",\n        \"Amount\": 875.79,\n        \"Timestamp\": \"2023-07-04T09:51:47.715Z\"\n    },\n    {\n        \"TransactionId\": 15,\n        \"UserId\": \"0971cac7-23fe-491c-8660-e48f696db8cb\",\n        \"Amount\": 864.69,\n        \"Timestamp\": \"2024-01-10T18:58:37.794Z\"\n    },\n    {\n        \"TransactionId\": 16,\n        \"UserId\": \"de22fa00-0a52-46c9-8638-aa70f7dbc06f\",\n        \"Amount\": 82.22,\n        \"Timestamp\": \"2023-02-19T19:49:54.649Z\"\n    },\n    {\n        \"TransactionId\": 17,\n        \"UserId\": \"b8f03fd1-4e97-4f9a-ac57-f952f19da9b3\",\n        \"Amount\": 819.39,\n        \"Timestamp\": \"2023-08-19T03:51:29.070Z\"\n    },\n    {\n        \"TransactionId\": 18,\n        \"UserId\": \"7a0ebc60-5835-434c-b326-5608ff4c2f8e\",\n        \"Amount\": 174.71,\n        \"Timestamp\": \"2023-04-27T02:46:37.784Z\"\n    },\n    {\n        \"TransactionId\": 19,\n        \"UserId\": \"13e37e74-7fc3-4b23-931e-9d882045039d\",\n        \"Amount\": 256.3,\n        \"Timestamp\": \"2023-02-25T20:14:45.998Z\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Fetch Top Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/top-users?year=2023&responseType=json",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"top-users"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "02",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "2023"
+						},
+						{
+							"key": "responseType",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CSV Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/top-users?year=2023&responseType=csv",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"top-users"
+							],
+							"query": [
+								{
+									"key": "month",
+									"value": "02",
+									"disabled": true
+								},
+								{
+									"key": "year",
+									"value": "2023"
+								},
+								{
+									"key": "responseType",
+									"value": "csv"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4701"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"125d-tuJ74Z9rr83hI6tME63+A9doKiA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Feb 2024 11:27:52 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "b45b258e-37e3-47b1-9f34-74409151f3d7,6842.77\nb46bafa7-9fe5-4afe-bfcf-eb002897b75f,6053.559999999999\nb2edfab9-1583-43e9-8403-1850bc8d266e,5552.52\n06eb1999-a584-4816-80ef-79ba766ee2f9,5522.639999999999\neda2c169-35ff-4687-b1e8-9945d91a40f7,5504.070000000001\nebf32995-734c-4bd8-9833-7052dbdd2b5e,5446.040000000001\n1979e36e-bb9c-479b-be97-75debbb2a0c8,5212.59\n69dee7be-8723-489c-b3a1-0b7ce9063c1f,5157.2\n7b0cc0a8-7d25-4dbd-b980-2d5fa3a8ae38,5109.549999999999\nc239d229-f6a3-4830-b7d5-329af8217f4c,5068.19\n3ea087c8-00ec-4a97-9732-81b02504e2d0,5023.59\n95df00ce-9d26-420b-b7e8-b254d9335d03,5015.809999999999\nf6b4772d-7e9b-4fed-96a2-3b82109658b2,4977.389999999999\nf002e653-9511-47d6-8685-ccdf21389ad5,4976.32\nc579bc33-d9a0-444e-9a97-6b49ad3818c6,4938.66\n8082dcbe-1ac5-4efa-81d9-c2448204d2a2,4936.04\n41fd244c-047e-45fd-a9b5-3fe028b4fdda,4913.049999999999\nb6d680fc-e07f-4389-919a-bc162e2b8c3d,4901.46\nb3cfbfe7-fcc2-47dc-9854-224acc43211d,4876.02\n9146fdcf-e6a4-486c-9e7b-b2c7c9fc4974,4868.3\n51949269-5f69-42ee-a0a2-e8a8c84849cf,4850.83\n0b85c5ce-3586-4fa6-9862-c703f628ba62,4847.6\n0daaabb9-8078-481d-8a7c-fdd59855e9cf,4841.900000000001\n945d3d11-af18-47f1-843b-bc0ef49c29d3,4818.23\ne9a4e58a-9b50-4a75-8cb6-0cb2d7c7976b,4803.35\nb1f72b7c-db78-4744-9d61-5ebe94943c39,4802.9\ned7987f7-a9a6-467a-943e-da1c8a0f6318,4798.12\n509a3f75-f41e-4d21-889a-8b369a45265c,4777\nc961c862-003d-4c22-a467-cf92f9307aec,4774.67\n7ca8e64a-e265-45cc-8e83-2d5a44aadaac,4771.8\n3361fef6-0166-4da1-aaa1-8b10f4fe7243,4751.01\n33ea824a-9bea-4444-98c3-d266cc43345a,4739.299999999999\nb6a745b0-d840-43a8-9ca0-fe12a6997c23,4729.510000000001\n863ad867-54cc-4199-bf45-49d6c979c1e0,4717.39\ne880c934-ff87-4e15-9fb5-a8b06ca6d1fe,4713.849999999999\n7f9443cb-0f1f-4fe4-84ce-06b3936d66b8,4664.459999999999\nc6447386-71c2-4f4c-9b42-3766afd8ddbd,4662.03\n03a322b4-f662-4a1e-8540-f9f192a0d6ae,4644.54\n4dace02d-7087-4293-87f3-f2c7babc21f9,4617.699999999999\nfedfaa54-cd5c-4445-b6c3-1daafffd9f0f,4617.349999999999\ne12f47fe-d413-4d9c-b824-eef394ddc1ec,4601.46\nf77c563a-9da6-48ab-8f51-c945777a2420,4580\n9146d07a-6757-4076-b00b-303f649da40e,4562.6\n926a88d5-c7a4-4a72-863b-345e3cdb7c69,4558.53\n54b06be9-ef0d-4a0b-acc9-be33d34c8c7e,4555.78\n5f67eb5c-0762-4ac3-b408-7b48ab471606,4548.37\nd7c7409c-3c0c-41d7-b8e6-3abed188357d,4537.02\n83dbb998-dfea-409d-8d2b-a246f5054f0e,4526.95\n13a147ad-1c03-485a-82ac-39232bba2f85,4513.5\ne2d4bd46-c944-4d7a-8665-51be4b8b372a,4506.210000000001\n8d978210-aa45-4e64-b100-eaf93eb263be,4503.799999999999\nc401ecca-bf2f-4fc1-b437-a8854c173f8f,4497.3\nbf48778c-3f34-4f4e-a53c-0c64d9225c3b,4492.8\n77c99af3-21e1-4cef-b86f-93567dac2f7f,4484.27\n4283dd2a-2607-4a2a-8625-66a04c252372,4479.87\n5bde4dbc-fb1d-4faa-bfbc-b4c7417bd5c9,4473.03\n5b8b8f5a-284f-443d-a7f5-34867a248bfc,4466.36\n8aee3c1e-c57f-4c3e-ae17-d57283f44fe3,4459.78\nc4368f00-1911-4175-b301-9cb84c53f384,4452.3\n9d1000ed-f85c-42ad-b46c-b0534db60332,4449.88\n5bc03ad7-e9ac-4343-94d6-9aa99e6ff462,4446.02\n844287f2-7d19-478c-a8f2-adeb758f85db,4444.28\n7d224cab-7456-49a7-a4af-9cecd94533f8,4442.33\nf52d5a17-64b2-433e-b92a-e97cffa43ba7,4442.28\n4fefa063-8df4-48f8-a7df-d22541d5b17a,4438.679999999999\ncf6f7456-10bf-43b4-88d0-dc12b1a050a4,4435.92\n1e1fc965-009b-4057-88d1-df968e794926,4422.27\ncacdaa17-1286-4495-a06f-91f7d12732b9,4422.25\n45e5bef8-722e-4267-bc95-943fbd67c2db,4415.89\ned502358-8a77-435a-843f-e423244e57f0,4414.1\n525729a9-9d04-43da-82e6-2981325e2612,4413.24\n50c50dcc-7baa-4367-99bd-7df8d1ebbe32,4410.98\n11008a94-ebcc-4d30-88d6-d0e9f3990cce,4410.39\n7bc7218a-af68-44a4-af9f-e71a4cd999a8,4409.570000000001\n8fb716de-0890-4dd6-b650-1cb434373a19,4402.6\n0d58f243-80b8-416c-b995-daec744543e7,4399.559999999999\nca403b66-8bc1-4672-a784-e579a35b6166,4398.49\nec7ebf80-a205-416f-af11-98a8bf8ebfcd,4395.86\nfe793cff-05d0-44ef-a91b-d6f3fa0ee00a,4395.42\na4476bd0-a74d-449e-abed-e0a74d30bdcd,4391.22\naba673ea-e453-438b-9761-52baa824ba4c,4382.03\n289a5e81-ee52-444c-b250-3f34024b7ec5,4381.91\n5d9b4eb9-45a2-49a9-ae79-017dc32b8e33,4368.54\n83f923e5-0f38-4e97-8541-a1b83dd78570,4358.93\ncd985eef-6873-4c30-8e7a-a0e2b702dfb6,4354.889999999999\nb7487252-3a29-4e1d-b9d8-4c938fff5e8c,4352.3\n185b7462-7104-40b0-8b2e-7da9b2cee993,4347.93\nb3238fc4-39c2-4e0d-acc1-92b6504f9240,4344.63\nf61a7fcf-f0f1-4e6c-bc66-9f1a8a0fe99e,4342.15\n5707ce92-7e7e-4809-9999-ce0675379049,4338.69\nf620db54-f34e-4034-9966-dc8dab1cd921,4338.27\n08c980d5-097d-4c6a-92f5-15bd9b9448e9,4320.82\n0af6326c-39fd-4653-89b1-d636ad60a471,4320.38\n5d746c7e-79d9-4146-b9e0-d1b1e72e0a95,4316.780000000001\n8b953e80-674d-4868-a6c4-e3de218b1379,4307.16\ne589321c-6f47-43d8-8948-9559fa68aef7,4306.24\nf2bdb405-396e-474f-8442-8c5fa6268c9d,4304.18\ne000c591-99d8-403a-8d7d-f4c1de54c1ec,4303.15\n43bb342f-0b59-41b6-9588-07ef20e87962,4300.52\n46a19e6a-34ed-45b2-82f6-6e46ca386cc8,4295.59\n"
+				},
+				{
+					"name": "JSON Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/top-users?year=2023&responseType=json",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"top-users"
+							],
+							"query": [
+								{
+									"key": "month",
+									"value": "02",
+									"disabled": true
+								},
+								{
+									"key": "year",
+									"value": "2023"
+								},
+								{
+									"key": "responseType",
+									"value": "json"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7802"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e7a-9SYrZ13tgpKGiROVK5nVhCDliKE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 18 Feb 2024 11:39:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[{\"_sum\":{\"Amount\":6842.77},\"UserId\":\"b45b258e-37e3-47b1-9f34-74409151f3d7\"},{\"_sum\":{\"Amount\":6053.559999999999},\"UserId\":\"b46bafa7-9fe5-4afe-bfcf-eb002897b75f\"},{\"_sum\":{\"Amount\":5552.52},\"UserId\":\"b2edfab9-1583-43e9-8403-1850bc8d266e\"},{\"_sum\":{\"Amount\":5522.639999999999},\"UserId\":\"06eb1999-a584-4816-80ef-79ba766ee2f9\"},{\"_sum\":{\"Amount\":5504.070000000001},\"UserId\":\"eda2c169-35ff-4687-b1e8-9945d91a40f7\"},{\"_sum\":{\"Amount\":5446.040000000001},\"UserId\":\"ebf32995-734c-4bd8-9833-7052dbdd2b5e\"},{\"_sum\":{\"Amount\":5212.59},\"UserId\":\"1979e36e-bb9c-479b-be97-75debbb2a0c8\"},{\"_sum\":{\"Amount\":5157.2},\"UserId\":\"69dee7be-8723-489c-b3a1-0b7ce9063c1f\"},{\"_sum\":{\"Amount\":5109.549999999999},\"UserId\":\"7b0cc0a8-7d25-4dbd-b980-2d5fa3a8ae38\"},{\"_sum\":{\"Amount\":5068.19},\"UserId\":\"c239d229-f6a3-4830-b7d5-329af8217f4c\"},{\"_sum\":{\"Amount\":5023.59},\"UserId\":\"3ea087c8-00ec-4a97-9732-81b02504e2d0\"},{\"_sum\":{\"Amount\":5015.809999999999},\"UserId\":\"95df00ce-9d26-420b-b7e8-b254d9335d03\"},{\"_sum\":{\"Amount\":4977.389999999999},\"UserId\":\"f6b4772d-7e9b-4fed-96a2-3b82109658b2\"},{\"_sum\":{\"Amount\":4976.32},\"UserId\":\"f002e653-9511-47d6-8685-ccdf21389ad5\"},{\"_sum\":{\"Amount\":4938.66},\"UserId\":\"c579bc33-d9a0-444e-9a97-6b49ad3818c6\"},{\"_sum\":{\"Amount\":4936.04},\"UserId\":\"8082dcbe-1ac5-4efa-81d9-c2448204d2a2\"},{\"_sum\":{\"Amount\":4913.049999999999},\"UserId\":\"41fd244c-047e-45fd-a9b5-3fe028b4fdda\"},{\"_sum\":{\"Amount\":4901.46},\"UserId\":\"b6d680fc-e07f-4389-919a-bc162e2b8c3d\"},{\"_sum\":{\"Amount\":4876.02},\"UserId\":\"b3cfbfe7-fcc2-47dc-9854-224acc43211d\"},{\"_sum\":{\"Amount\":4868.3},\"UserId\":\"9146fdcf-e6a4-486c-9e7b-b2c7c9fc4974\"},{\"_sum\":{\"Amount\":4850.83},\"UserId\":\"51949269-5f69-42ee-a0a2-e8a8c84849cf\"},{\"_sum\":{\"Amount\":4847.6},\"UserId\":\"0b85c5ce-3586-4fa6-9862-c703f628ba62\"},{\"_sum\":{\"Amount\":4841.900000000001},\"UserId\":\"0daaabb9-8078-481d-8a7c-fdd59855e9cf\"},{\"_sum\":{\"Amount\":4818.23},\"UserId\":\"945d3d11-af18-47f1-843b-bc0ef49c29d3\"},{\"_sum\":{\"Amount\":4803.35},\"UserId\":\"e9a4e58a-9b50-4a75-8cb6-0cb2d7c7976b\"},{\"_sum\":{\"Amount\":4802.9},\"UserId\":\"b1f72b7c-db78-4744-9d61-5ebe94943c39\"},{\"_sum\":{\"Amount\":4798.12},\"UserId\":\"ed7987f7-a9a6-467a-943e-da1c8a0f6318\"},{\"_sum\":{\"Amount\":4777},\"UserId\":\"509a3f75-f41e-4d21-889a-8b369a45265c\"},{\"_sum\":{\"Amount\":4774.67},\"UserId\":\"c961c862-003d-4c22-a467-cf92f9307aec\"},{\"_sum\":{\"Amount\":4771.8},\"UserId\":\"7ca8e64a-e265-45cc-8e83-2d5a44aadaac\"},{\"_sum\":{\"Amount\":4751.01},\"UserId\":\"3361fef6-0166-4da1-aaa1-8b10f4fe7243\"},{\"_sum\":{\"Amount\":4739.299999999999},\"UserId\":\"33ea824a-9bea-4444-98c3-d266cc43345a\"},{\"_sum\":{\"Amount\":4729.510000000001},\"UserId\":\"b6a745b0-d840-43a8-9ca0-fe12a6997c23\"},{\"_sum\":{\"Amount\":4717.39},\"UserId\":\"863ad867-54cc-4199-bf45-49d6c979c1e0\"},{\"_sum\":{\"Amount\":4713.849999999999},\"UserId\":\"e880c934-ff87-4e15-9fb5-a8b06ca6d1fe\"},{\"_sum\":{\"Amount\":4664.459999999999},\"UserId\":\"7f9443cb-0f1f-4fe4-84ce-06b3936d66b8\"},{\"_sum\":{\"Amount\":4662.03},\"UserId\":\"c6447386-71c2-4f4c-9b42-3766afd8ddbd\"},{\"_sum\":{\"Amount\":4644.54},\"UserId\":\"03a322b4-f662-4a1e-8540-f9f192a0d6ae\"},{\"_sum\":{\"Amount\":4617.699999999999},\"UserId\":\"4dace02d-7087-4293-87f3-f2c7babc21f9\"},{\"_sum\":{\"Amount\":4617.349999999999},\"UserId\":\"fedfaa54-cd5c-4445-b6c3-1daafffd9f0f\"},{\"_sum\":{\"Amount\":4601.46},\"UserId\":\"e12f47fe-d413-4d9c-b824-eef394ddc1ec\"},{\"_sum\":{\"Amount\":4580},\"UserId\":\"f77c563a-9da6-48ab-8f51-c945777a2420\"},{\"_sum\":{\"Amount\":4562.6},\"UserId\":\"9146d07a-6757-4076-b00b-303f649da40e\"},{\"_sum\":{\"Amount\":4558.53},\"UserId\":\"926a88d5-c7a4-4a72-863b-345e3cdb7c69\"},{\"_sum\":{\"Amount\":4555.78},\"UserId\":\"54b06be9-ef0d-4a0b-acc9-be33d34c8c7e\"},{\"_sum\":{\"Amount\":4548.37},\"UserId\":\"5f67eb5c-0762-4ac3-b408-7b48ab471606\"},{\"_sum\":{\"Amount\":4537.02},\"UserId\":\"d7c7409c-3c0c-41d7-b8e6-3abed188357d\"},{\"_sum\":{\"Amount\":4526.95},\"UserId\":\"83dbb998-dfea-409d-8d2b-a246f5054f0e\"},{\"_sum\":{\"Amount\":4513.5},\"UserId\":\"13a147ad-1c03-485a-82ac-39232bba2f85\"},{\"_sum\":{\"Amount\":4506.210000000001},\"UserId\":\"e2d4bd46-c944-4d7a-8665-51be4b8b372a\"},{\"_sum\":{\"Amount\":4503.799999999999},\"UserId\":\"8d978210-aa45-4e64-b100-eaf93eb263be\"},{\"_sum\":{\"Amount\":4497.3},\"UserId\":\"c401ecca-bf2f-4fc1-b437-a8854c173f8f\"},{\"_sum\":{\"Amount\":4492.8},\"UserId\":\"bf48778c-3f34-4f4e-a53c-0c64d9225c3b\"},{\"_sum\":{\"Amount\":4484.27},\"UserId\":\"77c99af3-21e1-4cef-b86f-93567dac2f7f\"},{\"_sum\":{\"Amount\":4479.87},\"UserId\":\"4283dd2a-2607-4a2a-8625-66a04c252372\"},{\"_sum\":{\"Amount\":4473.03},\"UserId\":\"5bde4dbc-fb1d-4faa-bfbc-b4c7417bd5c9\"},{\"_sum\":{\"Amount\":4466.36},\"UserId\":\"5b8b8f5a-284f-443d-a7f5-34867a248bfc\"},{\"_sum\":{\"Amount\":4459.78},\"UserId\":\"8aee3c1e-c57f-4c3e-ae17-d57283f44fe3\"},{\"_sum\":{\"Amount\":4452.3},\"UserId\":\"c4368f00-1911-4175-b301-9cb84c53f384\"},{\"_sum\":{\"Amount\":4449.88},\"UserId\":\"9d1000ed-f85c-42ad-b46c-b0534db60332\"},{\"_sum\":{\"Amount\":4446.02},\"UserId\":\"5bc03ad7-e9ac-4343-94d6-9aa99e6ff462\"},{\"_sum\":{\"Amount\":4444.28},\"UserId\":\"844287f2-7d19-478c-a8f2-adeb758f85db\"},{\"_sum\":{\"Amount\":4442.33},\"UserId\":\"7d224cab-7456-49a7-a4af-9cecd94533f8\"},{\"_sum\":{\"Amount\":4442.28},\"UserId\":\"f52d5a17-64b2-433e-b92a-e97cffa43ba7\"},{\"_sum\":{\"Amount\":4438.679999999999},\"UserId\":\"4fefa063-8df4-48f8-a7df-d22541d5b17a\"},{\"_sum\":{\"Amount\":4435.92},\"UserId\":\"cf6f7456-10bf-43b4-88d0-dc12b1a050a4\"},{\"_sum\":{\"Amount\":4422.27},\"UserId\":\"1e1fc965-009b-4057-88d1-df968e794926\"},{\"_sum\":{\"Amount\":4422.25},\"UserId\":\"cacdaa17-1286-4495-a06f-91f7d12732b9\"},{\"_sum\":{\"Amount\":4415.89},\"UserId\":\"45e5bef8-722e-4267-bc95-943fbd67c2db\"},{\"_sum\":{\"Amount\":4414.1},\"UserId\":\"ed502358-8a77-435a-843f-e423244e57f0\"},{\"_sum\":{\"Amount\":4413.24},\"UserId\":\"525729a9-9d04-43da-82e6-2981325e2612\"},{\"_sum\":{\"Amount\":4410.98},\"UserId\":\"50c50dcc-7baa-4367-99bd-7df8d1ebbe32\"},{\"_sum\":{\"Amount\":4410.39},\"UserId\":\"11008a94-ebcc-4d30-88d6-d0e9f3990cce\"},{\"_sum\":{\"Amount\":4409.570000000001},\"UserId\":\"7bc7218a-af68-44a4-af9f-e71a4cd999a8\"},{\"_sum\":{\"Amount\":4402.6},\"UserId\":\"8fb716de-0890-4dd6-b650-1cb434373a19\"},{\"_sum\":{\"Amount\":4399.559999999999},\"UserId\":\"0d58f243-80b8-416c-b995-daec744543e7\"},{\"_sum\":{\"Amount\":4398.49},\"UserId\":\"ca403b66-8bc1-4672-a784-e579a35b6166\"},{\"_sum\":{\"Amount\":4395.86},\"UserId\":\"ec7ebf80-a205-416f-af11-98a8bf8ebfcd\"},{\"_sum\":{\"Amount\":4395.42},\"UserId\":\"fe793cff-05d0-44ef-a91b-d6f3fa0ee00a\"},{\"_sum\":{\"Amount\":4391.22},\"UserId\":\"a4476bd0-a74d-449e-abed-e0a74d30bdcd\"},{\"_sum\":{\"Amount\":4382.03},\"UserId\":\"aba673ea-e453-438b-9761-52baa824ba4c\"},{\"_sum\":{\"Amount\":4381.91},\"UserId\":\"289a5e81-ee52-444c-b250-3f34024b7ec5\"},{\"_sum\":{\"Amount\":4368.54},\"UserId\":\"5d9b4eb9-45a2-49a9-ae79-017dc32b8e33\"},{\"_sum\":{\"Amount\":4358.93},\"UserId\":\"83f923e5-0f38-4e97-8541-a1b83dd78570\"},{\"_sum\":{\"Amount\":4354.889999999999},\"UserId\":\"cd985eef-6873-4c30-8e7a-a0e2b702dfb6\"},{\"_sum\":{\"Amount\":4352.3},\"UserId\":\"b7487252-3a29-4e1d-b9d8-4c938fff5e8c\"},{\"_sum\":{\"Amount\":4347.93},\"UserId\":\"185b7462-7104-40b0-8b2e-7da9b2cee993\"},{\"_sum\":{\"Amount\":4344.63},\"UserId\":\"b3238fc4-39c2-4e0d-acc1-92b6504f9240\"},{\"_sum\":{\"Amount\":4342.15},\"UserId\":\"f61a7fcf-f0f1-4e6c-bc66-9f1a8a0fe99e\"},{\"_sum\":{\"Amount\":4338.69},\"UserId\":\"5707ce92-7e7e-4809-9999-ce0675379049\"},{\"_sum\":{\"Amount\":4338.27},\"UserId\":\"f620db54-f34e-4034-9966-dc8dab1cd921\"},{\"_sum\":{\"Amount\":4320.82},\"UserId\":\"08c980d5-097d-4c6a-92f5-15bd9b9448e9\"},{\"_sum\":{\"Amount\":4320.38},\"UserId\":\"0af6326c-39fd-4653-89b1-d636ad60a471\"},{\"_sum\":{\"Amount\":4316.780000000001},\"UserId\":\"5d746c7e-79d9-4146-b9e0-d1b1e72e0a95\"},{\"_sum\":{\"Amount\":4307.16},\"UserId\":\"8b953e80-674d-4868-a6c4-e3de218b1379\"},{\"_sum\":{\"Amount\":4306.24},\"UserId\":\"e589321c-6f47-43d8-8948-9559fa68aef7\"},{\"_sum\":{\"Amount\":4304.18},\"UserId\":\"f2bdb405-396e-474f-8442-8c5fa6268c9d\"},{\"_sum\":{\"Amount\":4303.15},\"UserId\":\"e000c591-99d8-403a-8d7d-f4c1de54c1ec\"},{\"_sum\":{\"Amount\":4300.52},\"UserId\":\"43bb342f-0b59-41b6-9588-07ef20e87962\"},{\"_sum\":{\"Amount\":4295.59},\"UserId\":\"46a19e6a-34ed-45b2-82f6-6e46ca386cc8\"}]"
+				}
+			]
+		},
+		{
+			"name": "Potential Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/potential-users?year=2023&month=06",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"potential-users"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2023"
+						},
+						{
+							"key": "month",
+							"value": "06"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	]
+}
