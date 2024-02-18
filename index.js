@@ -153,6 +153,7 @@ app.get('/potential-users', async (req, res) => {
           })
         }
       })
+      console.log(JSON.stringify(finalResult));
     })
 
     await client.set(`potential-users:${month ? month + '-' : ''}${year}`, JSON.stringify(finalResult));
